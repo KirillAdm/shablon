@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slack</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./server-list.css" />
+    <link rel="stylesheet" href="./channel-list.css" />
+    <link rel="stylesheet" href="./chat.css" />
+    <link rel="stylesheet" href="./profile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="app">
+    <aside class="server-list">
+      <div class="server">
+       <nav> <a href="./chat&friends.html"><img class="server-icon" src="./assets/Object.jpg" alt="chat&friend"/></a></nav>
+      </div>
+      <div class="server server-inactive">
+        <nav><a href="./comments.html"><img class="server-icon" src="./assets/Layer 6.jpg" alt="comments"/></a></nav>
+      </div>
+      <div class="server server-inactive">
+        <nav><a href="./profile.html"><img class="server-icon" src="./assets/Layer 7.jpg" alt="profile" /></a></nav>
+      </div>
+    </aside>
+    <section class="channel-and-friends">
+      <div class="list">
+        <h1>Nomad List</h1>
+          <button class="list-arrow"><img src="./assets/arrowdown.svg" alt="arrowdown"></button>
+        <button class="icon-button"><img src="./assets/shester.svg" alt=""></button>
+      </div>
+      <div class="treads">
+        <img src="./assets/chat.svg" alt="chat">
+        <span> All treads</span>
+      </div>
+      <div>
+        <div class="none-decor-channels">
+          <nav><a href="./comments.html" class="none-decor-channels"><h3>channels</h3></a></nav>
+          <span>5</span>
+        </div>
+        <ul class="channel-list">
+          <li class="channel-list-item channel-list-item-active"> <nav><a href="./comments.html" class="none-decor">general</a></nav></li>
+          <li class="channel-list-item">support</li>
+          <li class="channel-list-item">marketing</li>
+          <li class="channel-list-item">thailand</li>
+          <li class="channel-list-item">bali</li>
+        </ul>
+      </div>
+      <div>
+        <div class="none-decor-channels">
+          <h3>Friends</h3>
+          <span>3</span>
+        </div>
+        <div class="friend-list">
+          <div class="friend-list-item">
+            <div class="friend-status friend-status-online"></div>
+            <img class="friend-avatar" src="./assets/Orlando.jpg" />
+            <span class="friend-name">Orlando Diggs</span>
+          </div>
+          <div class="friend-list-item">
+            <div class="friend-status friend-status-online"></div>
+            <img class="friend-avatar" src="./assets/Carmen.jpg" />
+            <span class="friend-name">Carmen Velasco</span>
+          </div>
+          <div class="friend-list-item">
+            <div class="friend-status friend-status-offline"></div>
+            <img class="friend-avatar" src="./assets/Marie.jpg" />
+            <span class="friend-name">Marie Jensen</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
