@@ -3,7 +3,7 @@
   height: 100%;
   width: 100%;
   min-width: 30px;
-  background: #ffffff;
+  background: #d2d2d2;
   mix-blend-mode: normal;
   opacity: 0.8;
   transition: width 0.5s;
@@ -19,21 +19,92 @@
   
 }
 .name{
-  margin: 0px;
+  margin: 15px 0px 0px 21px;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   color: #000000;
-  background-color: white;
+  background-color:#d2d2d2;
 }
 .work{
-  margin: 50px;
+  text-align: left;
+  margin-left: 21px;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   color: #5F6164;
+}
+.friend-status {
+  width: 8px;
+  height: 8px;
+  background: #666666;
+  border-radius: 50%;
+}
+
+.friend-status-online {
+  background-color: #70cc16;
+}
+.friend-list {
+  display: grid;
+  gap: 15px;
+}
+.friend-list-item {
+  display: flex;
+  align-items: baseline;
+  column-gap: 5px;
+}
+.icon-mess{
+  margin: 20px 7px 19px 19.5px;
+}
+.Message{
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  margin-right: 3px;
+  color: white;
+  background: #3577EF;
+}
+.mess-but{
+  margin-left: 20px;
+  width: 133.5px ;
+  height: 25px;
+  border-radius: 5px;
+  border:0px
+}
+.but{
+  border: 0px;
+  width: 20px;
+  height: 25px;
+  border-radius: 5px;
+  align-items: center;
+  
+}
+.infouser{
+  display: grid;
+  margin:14px 21px;
+}
+.user{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5F6164;
+}
+.username{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  text-decoration: none;
 }

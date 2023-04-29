@@ -7,7 +7,6 @@
     <title>Profile</title>
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="./server-list.css" />
-    <link rel="stylesheet" href="./chat.css" />
     <link rel="stylesheet" href="./profile.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,9 +30,39 @@
         <div>
           <img class="am" src="./assets/aml.jpg" alt="">
         </div>
-        <h2 class="name">Amilia Luna</h2>
-        <span class="work">UI Designer</span>
+          <div>
+            <div class="friend-list-item">
+            <h2 class="name">Amilia Luna</h2>
+            <div class="friend-status friend-status-online"></div>
+          </div>
+          <span class="work">UI Designer</span>
+          <div class="icon-mess">
+            <img src="./assets/facebook.svg" alt="">
+            <img src="./assets/twitter.svg" alt="">
+            <img src="./assets/insta.svg" alt="">
+            <img src="./assets/linki.svg" alt="">
+          </div>
+          <div>
+           <button class="Message mess-but">Message</button> 
+           <select class="Message but" name=""></select>
+          </div>
+          <div class="infouser">
+            <span class="user">Usernam</span>
+            <span class="username">@amilia_lu</span>
+          </div>
+          <div class="infouser"> <span class="user">Email</span>
+            <a class="username" href="mailto:a-luna@gmail.com">a-luna@gmail.com</a>
+          </div>
+          <div class="infouser">
+            <span class="user">Skype</span>
+            <a class="username" href="skype:amiluna">amiluna</a>
+          </div>
+          <div class="infouser">
+            <span class="user">Timezone</span>
+            <span class="username">2:21 PM Local time</span>
+          </div>
       </aside>
+
       <button class="icon-button" id="profile-button">
         <img class="icon" src="./assets/arrow.svg" />
       </button>
