@@ -32,3 +32,14 @@ html {
 .icon-button:hover {
   background-color: #cdcccc;
 }
+.name-site{
+
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+color: #FFFFFF;
+
+}
