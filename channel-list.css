@@ -79,7 +79,6 @@
 }
 .none-decor:hover{
   background-color: grey;
-  font-size: 25px;
   cursor: pointer;
 }
 
