@@ -60,6 +60,11 @@
 .icon-mess{
   margin: 20px 7px 19px 19.5px;
 }
+.icon-site:hover{
+  cursor: pointer;
+  background-color: green;
+  width: 30px;
+}
 .Message{
   
   font-family: 'Lato';
@@ -78,6 +83,10 @@
   height: 25px;
   border-radius: 5px;
   border:0px
+}
+.Message:hover{
+  height: 35px;
+  background-color: green;
 }
 .but{
   border: 0px;

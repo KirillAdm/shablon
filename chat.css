@@ -62,10 +62,17 @@
   margin-right: 24px;
 }
 .icon {
-  display:flex;
-  align-items: center;
-  justify-content: space-between;  
-  margin-right: 24px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background: transparent;
+
+}
+.icon:hover{
+ background-color: #cdcccc;
 }
 .lineup{
   border-bottom: 1px solid;

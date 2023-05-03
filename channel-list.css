@@ -77,6 +77,11 @@
   text-decoration: none;
   color:white;
 }
+.none-decor:hover{
+  background-color: grey;
+  font-size: 25px;
+  cursor: pointer;
+}
 
 
 .friend-list {
@@ -89,6 +94,12 @@
   align-items: center;
   column-gap: 10px;
 }
+.friend-list-item:hover{
+  background-color: grey;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
 
 .friend-status {
   width: 8px;
